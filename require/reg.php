@@ -123,7 +123,7 @@ if($done==false){
 }
 else{
 if(_activation){
- if(@mail($email, "=?utf-8?B?".base64_encode($_lang['xxl.act.mail.subject'])."?=".$username, "".$_lang['xxl.act.mail.body'].$username.$_lang['xxl.act.mail.body1']._url.$_lang['xxl.act.mail.body2'].$code.$_lang['xxl.act.mail.body3'].$email."</p></div>", "Content-Type: text/html; charset=utf-8\n")){
+ if(@mail($email, "=?utf-8?B?".base64_encode($_lang['xxl.act.mail.subject'])."?=".$username, "".$_lang['xxl.act.mail.body'].$username.$_lang['xxl.act.mail.body1']._url.$_lang['xxl.act.mail.body2'].$code.$_lang['xxl.act.mail.body3'].$email."</p></div></div>", "Content-Type: text/html; charset=utf-8\n")){
     $module.="<div style=\"padding: 10px 10px 10px 10px; background-color: rgb(255, 241, 241); border: 1px solid rgb(255, 220, 220);\">
     <p>".$_lang['xxl.actmail.send']."</p></div>";
  }
