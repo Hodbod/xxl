@@ -947,7 +947,14 @@ $_lang=array(
 "xxl.act.done"=>"Aktivace účtu proběhla úspěšně. Nyní se můžete přihlásit.",
 "xxl.act.mail.subject"=>"Aktivace účtu ",
 "xxl.actmail.send"=>"Na vaši adresu byl odeslán aktivační mail pro dokončení registrace účtu.",
-"xxl.actmail.send.error"=>"Aktivační mail se nepodařilo odeslat, kontaktujte prosím administrátora.",
+"xxl.actmail.error"=>"Aktivační mail se nepodařilo odeslat, kontaktujte prosím administrátora.",
+"xxl.act.mail.body"=> "<div>
+	<h1>Aktivace účtu</h1>
+	<div style='padding: 10px; background-color: rgb(252, 235, 235); border: 1px solid rgb(255, 218, 218);'>
+Pro aktivaci účtu <b>",
+"xxl.act.mail.body1"=> "</b> klikněte na <a href='",
+"xxl.act.mail.body2"=> "/index.php?m=login&code=",
+"xxl.act.mail.body3"=> "'>tento odkaz</a>.<p>Účet je registrován na ",
 
 //xxl admin
 "xxl.admin.act"=>"Aktivace účtu po registraci",
