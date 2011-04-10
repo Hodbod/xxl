@@ -7,3 +7,5 @@
 
 /* TR hover */
 .aktivni {text-decoration: underline}
+ /* Post clear */
+.post-head {clear:both;}
