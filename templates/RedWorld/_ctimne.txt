@@ -1,0 +1,13 @@
+INFORMACE O MOTIVU
+==================
+Nazev: RedWorld
+Pro verzi: 7.3.1
+Homepage: http://wall.cz/
+
+
+
+NAVOD NA INSTALACI
+===================
+Slozku 'RedWorld' prekopirujte na vas server do slozky
+"templates". Pote v nastaveni systemu zvolte
+tento motiv jako aktualni.

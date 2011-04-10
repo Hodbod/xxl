@@ -1,0 +1,123 @@
+/*-- SYSTEM --*/
+
+/* tagy */
+td {font-size: 11px;}
+img {border: none;}
+pre {overflow: auto; margin: 0px;}
+form {margin: 0px 0px 10px 0px;}
+fieldset {margin: 0px 0px 10px 0px; padding: 10px;}
+input,select,textarea {background-color: white; border: 1px solid gray;}
+
+.menu { margin: 0px; list-style: none;}
+.menu li {margin: 0px; padding: 0px; font-size: 1px;}
+.menu a {display: block; padding: 4px 4px 4px 22px; font-weight: bold; font-size: 13px; color: #313131; text-decoration: none; background-image: url("../images/menupoint.gif"); background-position: 3% center; background-repeat: no-repeat;}
+.menu a:hover {background-color: #737373; color: color: #555555;}
+.menu a.sublink {background-image: none; font-weight: normal;}
+.menu a.hs_closed {background-image: url("../images/system/hs_open.gif");}
+.menu a.hs_opened {background-image: url("../images/system/hs_close.gif");}
+.menu a.hs_closed, .menu a.hs_opened {padding-right: 16px; background-position: right 55%; background-repeat: no-repeat;}
+.menu ul.hs_content {display: none; padding: 5px 0 10px 10px !important; margin: 0 !important; list-style-type: none !important;}
+.menu ul.hs_content li {border: none !important;}
+
+.box-title {font-weight: bold; color: white; padding: 5px 0px 5px 5px; background: url(../images/bg_title.gif);}
+.box-item {padding: 6px; color: #313131; border: 1px solid white; background: #f8f8f8;}
+.box-item a {text-decoration: none;}
+.box-item a:hover {color: white; background-color: #313131;}
+.box-bottom {margin-bottom: 8px; height: 13px; background: url(../images/box_bottom.gif);}
+
+.searchform input.q {width: 125px;  background: rgb(255, 255, 255) url("../images/search.gif") no-repeat scroll left center;}
+
+.list-title {padding: 0px; margin: 0px 0px 0px 0px;}
+.list-title a {font-size: 12px; font-weight: normal;}
+.list-perex {padding: 0px; margin: 3px 0px 3px 0px;}
+.list-info {font-size: 11px; color: gray; margin: 0px 0px 15px 0px;}
+.list-info span {font-weight: bold;}
+.list-info a {text-decoration: none; color: gray;}
+
+.article-perex {font-style: italic; color: black;}
+.article-info {color: gray; padding: 20px 0px 0px 0px;}
+.article-info td {padding: 10px; line-height: 18px;}
+.article-info a {color: gray; text-decoration: underline;}
+.article-info a:hover {text-decoration: none;}
+
+.poll {border: 1px solid gainsboro; background-color: #EEEEEE;}
+.poll-content {padding: 5px;}
+.poll-question {text-align: center; padding-bottom: 5px;}
+.poll-question div {color: #A4A4A4; font-size: 8px; }
+.poll-answer {border-top: 1px solid gainsboro; padding: 3px 0px 3px 0px; }
+.poll-answer input {padding: 0px; margin: 0px; background-color: #DFDFDF;}
+.poll-answer div {background-image: url("../images/system/votebar.gif"); background-repeat: repeat-x; height: 10px; margin: 4px 2px 2px 0px;}
+
+.posts-comments, .posts-book {border-top: 1px solid #dcdcdc;}
+.posts-comments {margin-top: 32px; padding-top: 5px;} .posts-book {padding-top: 12px;}
+.posts h2 {margin-bottom: 10px;}
+.posts-form {padding-bottom: 10px;}
+.posts-form-buttons {padding-left: 16px;}
+.posts-form-buttons img {vertical-align: middle;}
+.post-head {margin-top: 20px;}
+.post-author {font-weight: bold;}
+.post-author-guest {font-weight: bold; color: #a03800;}
+.post-subject {font-weight: bold;}
+.post-info {color: gray;}
+.post-actions a {font-size: 10px; text-decoration: none; padding-left: 4px;}
+.post-body {padding: 0px; margin: 0px;}
+.post-smiley {vertical-align: middle;}
+.post-answer {padding-left: 6px; margin-left: 20px; background-position: left top;}
+.post-answer .post-info {font-size: 10px;}
+.post-answer .post-head {margin-top: 15px;}
+
+.gallery td {overflow: hidden;}
+.gallery img {margin: 3px;}
+
+.messages-menu a {padding: 0px 6px 0px 6px; text-decoration: none; border-right: 1px solid #dcdcdc;}
+.messages-menu a.active {font-weight: bold;}
+.messages-table {width: 550px; border: 1px solid #dcdcdc;}
+.messages-table td {padding: 5px 15px 5px 15px;}
+.messages-table a {text-decoration: none;}
+.messages-table a.notreaded {font-weight: bold;}
+
+.widetable {width: 550px; border: 1px solid #dcdcdc;}
+.widetable td {width: 50%; padding: 5px 15px 5px 15px;}
+.widetable td.rbor {border-right: 1px solid #f5f5f5;}
+.widetable h2 {margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px solid #dcdcdc;}
+
+.profiletable td {padding: 3px 10px 3px 10px;}
+.avatartd {padding: 5px;}
+.avatar {width: 96px; height: 128px; border: 1px solid #000000; overflow: hidden;}
+.note {padding: 8px 5px 5px 8px; width: 300px; height: 96px; overflow: auto;}
+
+.areasmall {width: 354px; height: 100px;}
+.areamedium {width: 500px; height: 150px;}
+.inputsmall {width: 209px;}
+.inputmedium {width: 354px;}
+.inputc {width: 136px;}
+
+.paging {padding: 6px 0px 3px 1px;}
+.paging span a {padding: 0px 2px 0px 2px; text-decoration: none;}
+.paging a.act {text-decoration: underline;}
+
+.message1, .message2, .message3 {margin: 5px 0px 20px 0px; padding: 13px 5px 13px 48px; font-weight: bold; background-color: #ffffff; background-position: 5px 5px; background-repeat: no-repeat;}
+.message1 {background-image: url("../images/icons/info.gif");}
+.message2 {background-image: url("../images/icons/warning.gif");}
+.message3 {background-image: url("../images/icons/error.gif");}
+
+.hr {height: 10px; background-image: url("../images/system/hr.gif"); background-position: left center; background-repeat: repeat-x;}
+.hr hr {display: none;}
+
+.pre {font-family: monospace; width: 90%; padding: 5px; margin: 5px; border: 1px solid #dcdcdc; background-color: #feffeb; overflow: scroll; white-space: pre; display: block;}
+.bborder {padding-bottom: 8px; margin-bottom: 12px; border-bottom: 1px solid #dcdcdc;}
+.backlink {display: block; font-weight: bold; padding-bottom: 15px;}
+.hint {color: gray; font-size: 10px; padding: 0px 4px 0px 4px;}
+.cimage {width: 68px; height: 22px; vertical-align: top;}
+.icon {vertical-align: middle; margin-top: -1px;}
+.minip {padding: 0px; margin: 0px 0px 4px 0px;}
+.rpad {padding-right: 10px;}
+.lpad {padding-left: 10px;}
+.hidden {display: none;}
+.inline {display: inline;}
+.cleaner {clear: both;}
+.important {color: red;}
+
+.exp {border-bottom: 1px dashed #808080; cursor: help;} 
+.leftimg {float: left; margin: 1px 10px 5px 1px;} 
+.rightimg {float: right; margin: 1px 1px 5px 10px;}

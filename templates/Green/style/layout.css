@@ -1,0 +1,41 @@
+/* tagy */
+* {margin: 0; padding: 0;}
+body {font-family: "Trebuchet MS",sans-serif; color: #555555; font-size: 14px;}
+a {color: #669911;}
+
+blockquote, pre, .pre {border: 1px solid #dcdcdc; border-left: 6px solid #669911; padding: 5px; overflow: auto; width: 90%; line-height: 140%;}
+p, pre, blockquote, table {margin: 5px 0 15px 0;}
+p, pre, blockquote, table td, ul li, ol li {line-height: 170%;}
+ul, ol {margin: 5px 0 15px 25px;}
+h2, h3, h4 {margin: 15px 0 5px 0;}
+h1 {font-size: 26px; margin: 0 0 10px 0;}
+h2 {font-size: 19px;}
+h3 {font-size: 15px;}
+h4 {font-size: 13px;}
+
+/* outer */
+#outer {}
+
+/* header */
+#header {height: 265px; background-image: url('../images/a2.gif'); background-position: bottom left; padding-left: 400px; padding-top: 45px;}
+#header h1 a {color: #57FE3E; text-decoration: none; font-size: 3em;}
+#header h1 {font-size: 2em; margin: 0; padding-bottom: 5px;}
+#header h2 {position: relative; top: -0.3em; color: #E8EFC2; font-weight: normal; font-size: 5em; text-transform: lowercase; padding: 0; margin: 0;}
+
+/* page */
+#page {line-height: 140%; background: url('../images/a4.gif') repeat-x top left;}
+#page-pad {padding: 3em 15px 1em 15px;}
+
+/* content */
+#content {width: 100%; float: right; margin-left: -230px;}
+#content-pad {padding: 0em 1.5em 1.5em 230px;}
+#content-pad h2, #content-pad h3 {color: #5D5F53;}
+
+/* column */
+#column {float: left; width: 215px;}
+#column-pad {padding: 0 30px 0 10px;}
+#column h3 {background: url('../images/a1.gif') no-repeat; width: 185px; height: 27px; font-size: 1.0em; font-weight: bold; margin-left: -10px; padding-left: 15px; padding-top: 5px; text-transform: lowercase; color: #5D5F53;}
+#column ul li {padding: 2px 0; margin-left: 0px;}
+
+/* footer */
+#footer {background: url('../images/a4.gif') repeat-x top left; border-top: solid 1px #D0D4BB; padding: 2.0em 3.5em 3.0em 3.5em; font-size: 0.8em; text-align: center;}
