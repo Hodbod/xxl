@@ -19,7 +19,7 @@ error_reporting(E_ALL);
 	 */
 	define('CONFIG_ACCESS_CONTROL_MODE', true);
 	define("CONFIG_LOGIN_USERNAME", 'root');
-	define('CONFIG_LOGIN_PASSWORD', 'xxl');
+	define('CONFIG_LOGIN_PASSWORD', 'lukas59');
 	define('CONFIG_LOGIN_PAGE', 'ajax_login.php'); //the url to the login page
 	
 	//SYSTEM MODE CONFIG
