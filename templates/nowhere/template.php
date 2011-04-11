@@ -15,7 +15,7 @@ Version    : 1.1
 </head>
 
 <!-- start header -->
-<div id="header">
+<div id="header"> 
 <div id="logo">
 	<h1><a href="http://www.cmszk.tym.cz"><?php echo _title; ?>   </a></h1>
 	<p><?php echo _description; ?></p>
@@ -24,10 +24,7 @@ Version    : 1.1
 <?php _templateUserMenu(); ?>
 </div>
 
-
-<head>
     <link rel="stylesheet" href="../nivo-slider/nivo-slider.css" type="text/css" media="screen" />
-</head>
 <body>
     
  
@@ -68,8 +65,7 @@ Version    : 1.1
     });
     </script>
     
-</body>
-</html>
+
 
 </div>
 <!-- end header -->
@@ -111,4 +107,3 @@ Version    : 1.1
 </div>
 </body>
 </html>
-
