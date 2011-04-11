@@ -233,6 +233,10 @@ $output="";
   if(_ulist and (!_notpublicsite or _loginindicator)){
   /*uziv. menu*/ $output.=_template_usermenu_item_start."<a href='"._indexroot."index.php?m=ulist'>".$_lang['usermenu.ulist']."</a>"._template_usermenu_item_end."\n";
   }
+ if(_loginindicator) {
+/*administrace*/
+$output .= _template_usermenu_item_start."<a href='"._indexroot."/admin'>".$_lang['admin.title']."</a>"._template_usermenu_item_end."\n";
+}
   
   if(_template_usermenu_parent!=""){$output.="</"._template_usermenu_parent.">\n";}
 
