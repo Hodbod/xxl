@@ -12,10 +12,12 @@ Version    : 1.1
 <meta name="keywords" content="" />
 <meta name="Small Window " content="" />
 <link href="templates/nowhere/default.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="../nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 </head>
+ <body id="<?php echo _pagetype;?>">
 
 <!-- start header -->
-<div id="header"> 
+<div id="header">
 <div id="logo">
 	<h1><a href="http://www.cmszk.tym.cz"><?php echo _title; ?>   </a></h1>
 	<p><?php echo _description; ?></p>
@@ -23,10 +25,6 @@ Version    : 1.1
 <div id="menu">
 <?php _templateUserMenu(); ?>
 </div>
-
-    <link rel="stylesheet" href="../nivo-slider/nivo-slider.css" type="text/css" media="screen" />
-<body>
-    
  
     <div id="wrapper">
          
@@ -50,7 +48,7 @@ Version    : 1.1
                 <img src="templates/nowhere/images/banner/Banner_7A.jpg" alt="" /> 
                 <img src="templates/nowhere/images/banner/Banner_8.jpg" alt="" /> 
                 <img src="templates/nowhere/images/banner/Banner_8A.jpg" alt="" /> 
-                <br>                                                                   
+                                                                                  
             </div>
         
       </div>
@@ -68,6 +66,7 @@ Version    : 1.1
 
 
 </div>
+
 <!-- end header -->
 
 <div id="wrapper">
@@ -103,7 +102,8 @@ Version    : 1.1
 <!-- end page -->
 </div>
 <div id="footer">
-	<p>&copy; 2011 Hotdog
+	<p>&copy; 2011 <a href="mailto:hotdog@email.cz">Hotdog</a></p>
 </div>
-</body>
+</body> 
 </html>
+
