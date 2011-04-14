@@ -1,5 +1,5 @@
 <?php if(!defined('_core')){exit;}?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--
 Design by Hotdog
 Name       : Nowhere 
@@ -13,8 +13,13 @@ Version    : 1.1
 <meta name="Small Window " content="" />
 <link href="templates/nowhere/default.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="stylesheet" href="../nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./libs/jquery/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="./remote/javascript.php"></script>
+<script type="text/javascript" src="./libs/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="./remote/colorbox.php"></script>
+<link href="./libs/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
 </head>
- <body id="<?php echo _pagetype;?>">
+ <body>
 
 <!-- start header -->
 <div id="header">
@@ -26,10 +31,7 @@ Version    : 1.1
 <?php _templateUserMenu(); ?>
 </div>
  
-    <div id="wrapper">
-         
         
-
        <div id="slider-wrapper">
             <div id="slider" class="nivoSlider">
                 <img src="templates/nowhere/images/banner/Banner_1.jpg" alt="" />
@@ -53,7 +55,7 @@ Version    : 1.1
         
       </div>
 
-    </div>
+
     <script type="text/javascript" src="templates/nowhere/scripts/jquery-1.4.3.min.js"></script>
     <script type="text/javascript" src="../nivo-slider/jquery.nivo.slider.pack.js"></script>
     <script type="text/javascript" src="../nivo-slider/jquery.nivo.slider.js"></script>
@@ -67,9 +69,7 @@ Version    : 1.1
 
 </div>
 
-<!-- end header -->
 
-<div id="wrapper">
 <!-- start page -->
 <div id="page">
 
@@ -100,7 +100,6 @@ Version    : 1.1
 	<div style="clear: both;">&nbsp;</div>
 </div>
 <!-- end page -->
-</div>
 <div id="footer">
 	<p>&copy; 2011 <a href="mailto:hotdog@email.cz">Hotdog</a></p>
 </div>
